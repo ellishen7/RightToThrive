@@ -153,19 +153,19 @@ a {
 }
 
 a:hover {
-  color: var(--coral);
+  color: var(--purple);
 }
 
-.bg-coral {
-  background-color: var(--coral);
+.bg-purple {
+  background-color: var(--purple);
 }
 
 .bg-peach {
   background-color: var(--peach);
 }
 
-.text-coral {
-  color: var(--coral);
+.text-purple {
+  color: var(--purple);
 }
 
 .text-deep-brown {
@@ -195,12 +195,12 @@ a:hover {
 }
 
 .tablink:hover {
-  background-color: var(--coral);
+  background-color: var(--purple);
   color: white;
 }
 
 .tablink.active {
-  background-color: var(--coral);
+  background-color: var(--purple);
   color: white;
 }
 
@@ -224,19 +224,19 @@ a {
 }
 
 a:hover {
-  color: var(--coral);
+  color: var(--purple);
 }
 
-.bg-coral {
-  background-color: var(--coral);
+.bg-purple {
+  background-color: var(--purple);
 }
 
 .bg-peach {
   background-color: var(--peach);
 }
 
-.text-coral {
-  color: var(--coral);
+.text-purple {
+  color: var(--purple);
 }
 
 .text-deep-brown {
@@ -276,12 +276,12 @@ body {
 }
 
 .tablink:hover {
-  background-color: var(--coral);  /* hover color */
+  background-color: var(--purple);  /* hover color */
   color: white;
 }
 
 .tablink.active {
-  background-color: var(--coral);  /* active tab color */
+  background-color: var(--purple);  /* active tab color */
   color: white;
 }
 
@@ -310,9 +310,8 @@ button {
 }
 
 button:hover {
-  background-color: #e55b5b;
+  background-color: --purple;
 }:root {
-  --coral: #FF6B6B;
   --peach: #FFDAB9;
   --deep-brown: #3B2F2F;
 }
@@ -330,19 +329,19 @@ a {
 }
 
 a:hover {
-  color: var(--coral);
+  color: var(--purple);
 }
 
-.bg-coral {
-  background-color: var(--coral);
+.bg-purple {
+  background-color: var(--purple);
 }
 
 .bg-peach {
   background-color: var(--peach);
 }
 
-.text-coral {
-  color: var(--coral);
+.text-purple {
+  color: var(--purple);
 }
 
 .text-deep-brown {
@@ -357,7 +356,7 @@ a:hover {
 .tabs {
   display: flex;
   background-color: var(--peach);
-  border-bottom: 2px solid var(--coral);
+  border-bottom: 2px solid var(--purple);
 }
 
 .tablink {
@@ -372,12 +371,12 @@ a:hover {
 }
 
 .tablink:hover {
-  background-color: var(--coral);
+  background-color: var(--purple);
   color: white;
 }
 
 .tablink.active {
-  background-color: var(--coral);
+  background-color: var(--purple);
   color: white;
 }
 
