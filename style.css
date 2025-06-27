@@ -64,25 +64,19 @@ body {
   margin: 2rem 0 1rem 0;
   gap: 0.5rem;
 }
-
 .tablink {
-  background-color: #0a9396;
-  color: white;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  cursor: pointer;
-  font-weight: bold;
-  border-radius: 5px 5px 0 0;
-  transition: background-color 0.3s ease;
+  background-color: var(--peach);  /* default tab color */
+  color: var(--deep-brown);        /* text color */
 }
 
 .tablink:hover {
-  background-color: #005f73;
+  background-color: var(--coral);  /* hover color */
+  color: white;
 }
 
 .tablink.active {
-  background-color: #94d2bd;
-  color: #005f73;
+  background-color: var(--coral);  /* active tab color */
+  color: white;
 }
 
 .tabcontent {
