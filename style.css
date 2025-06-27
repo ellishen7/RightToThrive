@@ -37,6 +37,63 @@ a:hover {
   color: var(--deep-brown);
 }
 
+:root {
+  --coral: #FF6B6B;
+  --peach: #FFDAB9;
+  --deep-brown: #3B2F2F;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: white;
+  color: var(--deep-brown);
+}
+
+/* ... your existing CSS ... */
+
+.logo {
+  max-width: 128px;
+}
+
+/* ===== Add tab styles below ===== */
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1rem 0;
+  gap: 0.5rem;
+}
+
+.tablink {
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+.tablink:hover {
+  background-color: #005f73;
+}
+
+.tablink.active {
+  background-color: #94d2bd;
+  color: #005f73;
+}
+
+.tabcontent {
+  background: white;
+  padding: 1.5rem 2rem;
+  border: 1px solid #ccc;
+  max-width: 900px;
+  margin: 0 auto 3rem auto;
+  border-radius: 0 5px 5px 5px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+}
 .logo {
   max-width: 128px;
 }
