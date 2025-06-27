@@ -3,13 +3,104 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Right to Thrive</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container header-container">
+    <img src="images/logo.png" alt="Right to Thrive logo" class="logo" />
+    <nav>
+      <ul class="nav-links">
+        <li><button class="tablink active" onclick="openTab(event, 'About')">About</button></li>
+        <li><button class="tablink" onclick="openTab(event, 'LegalClinics')">Legal Clinics</button></li>
+        <li><button class="tablink" onclick="openTab(event, 'Workshops')">Workshops & Seminars</button></li>
+        <li><button class="tablink" onclick="openTab(event, 'Youth')">Youth Programs</button></li>
+        <li><button class="tablink" onclick="openTab(event, 'GetInvolved')">Get Involved</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section id="About" class="tabcontent" style="display:block;">
+    <h1>Our Mission</h1>
+    <p>Our mission is to build a more informed and just society by making legal knowledge understandable, engaging, and available to all.</p>
+  </section>
+
+  <section id="LegalClinics" class="tabcontent" style="display:none;">
+    <h2>Legal Clinics</h2>
+    <ul>
+      <li>Free 1-on-1 consultations with volunteer lawyers or law students</li>
+      <li>Help with forms (e.g., expungement, immigration, name change)</li>
+    </ul>
+  </section>
+
+  <section id="Workshops" class="tabcontent" style="display:none;">
+    <h2>Workshops & Seminars</h2>
+    <ul>
+      <li>"Know Your Rights" sessions (housing, employment, immigration, policing)</li>
+      <li>Tenant and Landlord Rights</li>
+      <li>Small Claims Court 101</li>
+      <li>Legal Basics for Entrepreneurs</li>
+    </ul>
+  </section>
+
+  <section id="Youth" class="tabcontent" style="display:none;">
+    <h2>Youth Programs</h2>
+    <ul>
+      <li>Law-themed summer camps for teens</li>
+      <li>Law students and lawyers teach formulation of an argument, public speech, mock-trial runs</li>
+      <li>Community engagement: who the law protects and why it matters</li>
+    </ul>
+  </section>
+
+  <section id="GetInvolved" class="tabcontent" style="display:none;">
+    <h2>Get Involved</h2>
+    <form action="mailto:contact@right2thrive-global.org" method="post" enctype="text/plain" class="contact-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container footer-container">
+    <p>&copy; 2025 Right to Thrive. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  function openTab(evt, tabName) {
+    const tabcontents = document.querySelectorAll(".tabcontent");
+    tabcontents.forEach(tc => (tc.style.display = "none"));
+    const tablinks = document.querySelectorAll(".tablink");
+    tablinks.forEach(tl => tl.classList.remove("active"));
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.classList.add("active");
+  }
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Right2Thrive Global</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header>
-  <h1>Right2Thrive Global</h1>
+  <h1>Right to Thrive</h1>
 </header>
 
 <main>

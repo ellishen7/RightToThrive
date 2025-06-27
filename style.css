@@ -1,3 +1,135 @@
+:root {
+  --purple: #6A4C93;
+  --brown: #5D3A00;
+  --light-brown: #C8A165;
+  --offwhite: #FAF7F0;
+  --dark-brown: #3B2F2F;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--offwhite);
+  color: var(--dark-brown);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  background-color: var(--brown);
+  padding: 1rem 0;
+  color: var(--offwhite);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 120px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li button {
+  background: none;
+  border: none;
+  color: var(--offwhite);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px 4px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+nav li button:hover {
+  background-color: var(--purple);
+}
+
+nav li button.active {
+  background-color: var(--purple);
+  font-weight: 700;
+}
+
+main {
+  background: white;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+}
+
+h1, h2 {
+  color: var(--brown);
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 400px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: var(--brown);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid var(--light-brown);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form button {
+  background-color: var(--purple);
+  color: var(--offwhite);
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #5a3b7c;
+}
+
+footer {
+  background-color: var(--brown);
+  color: var(--offwhite);
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
 
 :root {
   --coral: #FF6B6B;
@@ -253,3 +385,136 @@ a:hover {
 .tabcontent {
   padding: 1rem;
 }
+:root {
+  --purple: #6A4C93;
+  --brown: #5D3A00;
+  --light-brown: #C8A165;
+  --offwhite: #FAF7F0;
+  --dark-brown: #3B2F2F;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--offwhite);
+  color: var(--dark-brown);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  background-color: var(--brown);
+  padding: 1rem 0;
+  color: var(--offwhite);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 120px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li button {
+  background: none;
+  border: none;
+  color: var(--offwhite);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px 4px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+nav li button:hover {
+  background-color: var(--purple);
+}
+
+nav li button.active {
+  background-color: var(--purple);
+  font-weight: 700;
+}
+
+main {
+  background: white;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+}
+
+h1, h2 {
+  color: var(--brown);
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 400px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: var(--brown);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid var(--light-brown);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form button {
+  background-color: var(--purple);
+  color: var(--offwhite);
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #5a3b7c;
+}
+
+footer {
+  background-color: var(--brown);
+  color: var(--offwhite);
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
