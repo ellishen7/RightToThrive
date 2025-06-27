@@ -180,7 +180,7 @@ a:hover {
 .tabs {
   display: flex;
   background-color: var(--peach);
-  border-bottom: 2px solid var(--coral);
+  border-bottom: 2px solid var(--purple);
 }
 
 .tablink {
@@ -244,7 +244,7 @@ a:hover {
 }
 
 :root {
-  --coral: #FF6B6B;
+  --purple: #6B4C9A; 
   --peach: #FFDAB9;
   --deep-brown: #3B2F2F;
 }
