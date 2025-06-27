@@ -2,6 +2,80 @@
 :root {
   --coral: #FF6B6B;
   --peach: #FFDAB9;
+:root {
+  --coral: #FF6B6B;
+  --peach: #FFDAB9;
+  --deep-brown: #3B2F2F;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: white;
+  color: var(--deep-brown);
+}
+
+a {
+  text-decoration: none;
+  color: var(--deep-brown);
+}
+
+a:hover {
+  color: var(--coral);
+}
+
+.bg-coral {
+  background-color: var(--coral);
+}
+
+.bg-peach {
+  background-color: var(--peach);
+}
+
+.text-coral {
+  color: var(--coral);
+}
+
+.text-deep-brown {
+  color: var(--deep-brown);
+}
+
+.logo {
+  max-width: 128px;
+}
+
+/* ✅ Tabs styling */
+.tabs {
+  display: flex;
+  background-color: var(--peach);
+  border-bottom: 2px solid var(--coral);
+}
+
+.tablink {
+  background-color: var(--peach);
+  color: var(--deep-brown);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+.tablink:hover {
+  background-color: var(--coral);
+  color: white;
+}
+
+.tablink.active {
+  background-color: var(--coral);
+  color: white;
+}
+
+/* Optional: style tab content spacing */
+.tabcontent {
+  padding: 1rem;
+}
   --deep-brown: #3B2F2F;
 }
 
@@ -105,4 +179,77 @@ button {
 
 button:hover {
   background-color: #e55b5b;
+}:root {
+  --coral: #FF6B6B;
+  --peach: #FFDAB9;
+  --deep-brown: #3B2F2F;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: white;
+  color: var(--deep-brown);
+}
+
+a {
+  text-decoration: none;
+  color: var(--deep-brown);
+}
+
+a:hover {
+  color: var(--coral);
+}
+
+.bg-coral {
+  background-color: var(--coral);
+}
+
+.bg-peach {
+  background-color: var(--peach);
+}
+
+.text-coral {
+  color: var(--coral);
+}
+
+.text-deep-brown {
+  color: var(--deep-brown);
+}
+
+.logo {
+  max-width: 128px;
+}
+
+/* ✅ Tabs styling */
+.tabs {
+  display: flex;
+  background-color: var(--peach);
+  border-bottom: 2px solid var(--coral);
+}
+
+.tablink {
+  background-color: var(--peach);
+  color: var(--deep-brown);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+.tablink:hover {
+  background-color: var(--coral);
+  color: white;
+}
+
+.tablink.active {
+  background-color: var(--coral);
+  color: white;
+}
+
+/* Optional: style tab content spacing */
+.tabcontent {
+  padding: 1rem;
 }
