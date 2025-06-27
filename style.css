@@ -1,5 +1,6 @@
 :root {
   --purple: #6A4C93;
+  --light-purple: #d3bceb
   --brown: #5D3A00;
   --light-brown: #C8A165;
   --offwhite: #FAF7F0;
@@ -133,10 +134,10 @@ footer {
 
 :root {
   --purple: #FF6B6B;
-  --peach: #FFDAB9;
+  --light-purple: #d3bceb;
 :root {
   --purple: #FF6B6B;
-  --peach: #FFDAB9;
+  --light-purple: #d3bceb;
   --deep-brown: #3B2F2F;
 }
 
@@ -160,8 +161,8 @@ a:hover {
   background-color: var(--purple);
 }
 
-.bg-peach {
-  background-color: var(--peach);
+.bg-lightpurple {
+  background-color: var(--light-purple);
 }
 
 .text-purple {
@@ -179,12 +180,12 @@ a:hover {
 /* ✅ Tabs styling */
 .tabs {
   display: flex;
-  background-color: var(--peach);
+  background-color: var(--light-purple);
   border-bottom: 2px solid var(--purple);
 }
 
 .tablink {
-  background-color: var(--peach);
+  background-color: var(--light-purple);
   color: var(--deep-brown);
   border: none;
   padding: 0.75rem 1.5rem;
@@ -231,8 +232,8 @@ a:hover {
   background-color: var(--purple);
 }
 
-.bg-peach {
-  background-color: var(--peach);
+.bg-lightpurple {
+  background-color: var(--light-purple);
 }
 
 .text-purple {
@@ -245,7 +246,7 @@ a:hover {
 
 :root {
   --purple: #6B4C9A; 
-  --peach: #FFDAB9;
+  --light-purple: #d3bceb;
   --deep-brown: #3B2F2F;
 }
 
@@ -271,7 +272,7 @@ body {
   gap: 0.5rem;
 }
 .tablink {
-  background-color: var(--peach);  /* default tab color */
+  background-color: var(--light-purple);  /* default tab color */
   color: var(--deep-brown);        /* text color */
 }
 
@@ -312,7 +313,7 @@ button {
 button:hover {
   background-color: --purple;
 }:root {
-  --peach: #FFDAB9;
+  --light-purple: #d3bceb;
   --deep-brown: #3B2F2F;
 }
 
@@ -336,8 +337,8 @@ a:hover {
   background-color: var(--purple);
 }
 
-.bg-peach {
-  background-color: var(--peach);
+.bg-lightpurple {
+  background-color: var(--light-purple);
 }
 
 .text-purple {
@@ -355,12 +356,12 @@ a:hover {
 /* ✅ Tabs styling */
 .tabs {
   display: flex;
-  background-color: var(--peach);
+  background-color: var(--light-purple);
   border-bottom: 2px solid var(--purple);
 }
 
 .tablink {
-  background-color: var(--peach);
+  background-color: var(--light-purple);
   color: var(--deep-brown);
   border: none;
   padding: 0.75rem 1.5rem;
@@ -547,6 +548,7 @@ footer {
 .hero-text h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  color: var(--light-purple);
 }
 
 .hero-text p {
