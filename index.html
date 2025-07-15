@@ -13,6 +13,7 @@
     <img src="images/logo.png" alt="Right to Thrive logo" class="logo" />
     <nav>
       <ul class="nav-links">
+	<li><button class="tablink" onclick="openTab(event, 'SidewalkStories')">Sidewalk Stories</button></li>
         <li><button class="tablink active" onclick="openTab(event, 'About')">About</button></li>
         <li><button class="tablink" onclick="openTab(event, 'LegalClinics')">Legal Clinics</button></li>
         <li><button class="tablink" onclick="openTab(event, 'Workshops')">Workshops & Seminars</button></li>
@@ -32,10 +33,25 @@
 </div>
 
 <main class="container">
+  <section id="SidewalkStories" class="tabcontent" style="display:none;">
+  <h2>Sidewalk Stories Project</h2>
+  <p>Read stories of homeless individuals we have met, learn about their lives, and support them directly through donations.</p>
+
+  <!-- Example story -->
+  <article class="story">
+    <img src="images/example-person.jpg" alt="John's photo" class="story-photo" />
+    <h3>John's Story</h3>
+    <p>John has been living on the streets for 3 years after losing his job and home. He dreams of finding steady work and reconnecting with his family.</p>
+    <a href="https://www.paypal.com/donate?hosted_button_id=EXAMPLE" target="_blank" class="donate-button">Donate to John</a>
+  </article>
+
+  <!-- Add more stories here -->
+
+</section>
 
   <section id="About" class="tabcontent" style="display:block;">
     <h1>Our Mission</h1>
-    <p>Founded in 2025, Right to Thrive is a non-profit organization focused on empowering the community through the law. Through the help of legal professionals, we are able to host many projects within the community to make our society a more fair and just place.</p>
+    <p>Founded in 2025, Right to Thrive is a non-profit organization focused on empowering the community. Through the help of legal professionals, we are able to host many projects within the community to make our society a more fair and just place. Our work with The Sidewalk Stories Project helps even further to encourage empathy, and give everyone an equal opportunity to thrive.</p>
   </section>
 
   <section id="LegalClinics" class="tabcontent" style="display:none;">

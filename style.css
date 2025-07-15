@@ -1,6 +1,14 @@
 :root {
   --purple: #6A4C93;
-  --light-purple: #d3bceb
+  --light-purple: #d3bceb;
+  --brown: #5D3A00;
+  --light-brown: #C8A165;
+  --offwhite: #FAF7F0;
+  --dark-brown: #3B2F2F;
+}
+:root {
+  --purple: #6A4C93;
+^v  --light-purple: #d3bceb
   --brown: #5D3A00;
   --light-brown: #C8A165;
   --offwhite: #FAF7F0;
@@ -554,5 +562,49 @@ footer {
 .hero-text p {
   font-size: 1.2rem;
   font-weight: 300;
+}
+
+/* Sidewalk Stories styles */
+
+.story {
+  background-color: var(--light-purple);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Clear floats */
+}
+
+.story-photo {
+  max-width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+}
+
+.story h3 {
+  margin-top: 0;
+  color: var(--brown);
+}
+
+.donate-button {
+  display: inline-block;
+  background-color: var(--purple);
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 0.75rem;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+  background-color: var(--brown);
+  color: white;
 }
 
